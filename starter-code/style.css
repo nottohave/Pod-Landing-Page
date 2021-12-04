@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* import fonts */
+@font-face {
+    font-family: "Chivo Light";
+    src: url(./fonts/Chivo-Light.ttf);
+}
+
+@font-face {
+    font-family: "Chivo Bold";
+    src: url(./fonts/Chivo-Bold.ttf);
+}
+
+/* set color */
+:root {
+    --green: #54E6AF;
+    --darkgrey: #2C344B;
+    --dark: #121725;
+    --white: #FFFFFF;
+    --lightgrey: #5A668A;
+    --greywhite: #C2CBE5;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mobile view 375 x 777 */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3.875em 1.5em;
+    background: url(./assets/mobile/image-host.jpg);
+    opacity: 0.;
+}
+
+/* main */
+.description  {
+    height: 24.875em;
+    padding-top: 3.125em;
+}
+
+/* title */
+.description__title h1 {
+    font-family: "Chivo Light";
+    font-size: 1.5em;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    line-height: 1.5em;
+    color: var(--white);
+}
+
+.title-highlight {
+    display: block;
+    color: var(--green);
+}
+
+.description__paragraph {
+    padding-top: 1.375em;
+    font-family: "Chivo Light";
+    font-size: 0.9375em;
+    color: var(--darkgrey);
+    text-align: center;
+}
+
+/* description paragraph */
+
+/* companies */
+.sponsor__svg {
+    display: none;
+}
+/* email address */
+
+/* button request access */
+
+/* email status label */
+
+/* tablet 768 x 1024 */
+
+/* desktop 1440 x 900 */
