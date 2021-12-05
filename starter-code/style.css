@@ -51,9 +51,10 @@ body {
     bottom: 0px;
     left: 0px;
     background-image: url('./assets/mobile/image-host.jpg');
-    background-size:cover;
+    background-size: contain;
     background-position: top center;
-    opacity: 0.1;
+    background-repeat: no-repeat;
+    opacity: 0.2;
 }
 
 /* main */
@@ -63,10 +64,6 @@ body {
 }
 
 /* title */
-.description__title {
-    padding-bottom: 1.813em;
-
-}
 .description__title h1 {
     font-family: "Chivo Light";
     font-size: 1.5em;
@@ -94,15 +91,18 @@ body {
 /* companies */
 .sponsor__svg-mobile{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     width: 327px;
+    opacity: 0.6;
+    padding: 1.813em 0em;
+
 }
 
 .spotify {
     height: 1.1012em;
-    width: 3.496em;
+    width: 3.5em;
 }
 
 .apple-podcast {
@@ -111,21 +111,40 @@ body {
 }
 
 .google-podcasts {
-    height: 0.9375em;
-    width: 6em;
+    height: 0.6875em;
+    width: 4.5625em;
 }
 
 .pocket-casts {
-    height: ;
-    width: ;
+    height: 0.9375em;
+    width: 4.8125em;
 }
 
+/* sponsor companies desktop svg */
 .sponsor__svg {
     display: none;
 }
-/* email address */
 
-/* button request access */
+/* email address & request access */
+.container,
+.form-group-mobile,
+#email,
+.access {
+    width: 100%;
+}
+
+.container {
+    height: 6.74em;
+}
+
+.form-group-mobile,
+.access {
+    height: 2.875em;
+}
+
+#email {
+    height: 100%;
+}
 
 /* email status label */
 
