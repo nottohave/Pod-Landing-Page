@@ -57,10 +57,14 @@ body {
     opacity: 0.13;
 }
 
+/* header */
+.header {
+    margin-bottom: 3.8125em;
+}
+
 /* main */
 .description  {
     height: 24.875em;
-    padding-top: 3.125em;
 }
 
 /* title */
