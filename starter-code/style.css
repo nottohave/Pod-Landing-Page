@@ -54,7 +54,7 @@ body {
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat;
-    opacity: 0.2;
+    opacity: 0.13;
 }
 
 /* main */
@@ -96,7 +96,7 @@ body {
     flex-direction: row;
     width: 327px;
     opacity: 0.6;
-    padding: 1.813em 0em;
+    padding: 2.25em 0em 3em 0em;
 
 }
 
@@ -135,12 +135,9 @@ body {
 
 .container {
     height: 6.74em;
-    flex-direction: column;
-    justify-content: space-evenly;
 }
 
-.form-group-mobile,
-.access {
+.form-group-mobile{
     height: 2.875em;
 }
 
@@ -149,16 +146,15 @@ body {
 .access {
     border: none;
     border-radius: 28px;
-    
 }
 
 #email {
     height: 100%;
     padding: 0em 2.0625em;
-    background: var(--lightgrey);
+    background: var(--darkgrey);
     font-family: "Chivo Bold";
     font-size: 0.875em;
-    color: var(--white);
+    color: var(--greywhite);
 }
 
 #email:focus {
@@ -170,9 +166,11 @@ body {
 }
 
 .access {
+    display: block;
     background: var(--green);
     font-family: "Chivo Bold";
     color: var(--dark);
+    height: 2.875em;
 }
 
 /* email status label */
