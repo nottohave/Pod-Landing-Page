@@ -94,10 +94,9 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    width: 327px;
+    width: 100%;
     opacity: 0.6;
     padding: 2.25em 0em 3em 0em;
-
 }
 
 .spotify {
@@ -134,6 +133,8 @@ body {
 }
 
 .container {
+    flex-direction: column;
+    justify-content: space-between;
     height: 6.74em;
 }
 
@@ -143,6 +144,7 @@ body {
 
 .form-group-mobile,
 #email,
+.access2,
 .access {
     border: none;
     border-radius: 28px;
@@ -165,12 +167,17 @@ body {
     display: none;
 }
 
+.access2 {
+    display: relative;
+    height: 2.875em;
+    width: 100%;
+}
 .access {
     display: block;
     background: var(--green);
     font-family: "Chivo Bold";
     color: var(--dark);
-    height: 2.875em;
+    height: 100%;
 }
 
 /* email status label */
