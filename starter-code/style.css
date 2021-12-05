@@ -33,13 +33,27 @@
 
 /* Mobile view 375 x 777 */
 body {
+    position: relative;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 3.875em 1.5em;
-    background: url(./assets/mobile/image-host.jpg);
-    opacity: 0.;
+    height: 100vh;
+    background: black;
+}
+
+/* background image */
+.coverImg {
+    position: absolute;
+    z-index: -999;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url('./assets/mobile/image-host.jpg');
+    background-size:cover;
+    background-position: top center;
+    opacity: 0.1;
 }
 
 /* main */
@@ -49,12 +63,15 @@ body {
 }
 
 /* title */
+.description__title {
+    padding-bottom: 1.813em;
+
+}
 .description__title h1 {
     font-family: "Chivo Light";
     font-size: 1.5em;
     text-align: center;
     height: auto;
-    width: 100%;
     line-height: 1.5em;
     color: var(--white);
 }
@@ -68,13 +85,41 @@ body {
     padding-top: 1.375em;
     font-family: "Chivo Light";
     font-size: 0.9375em;
-    color: var(--darkgrey);
+    color: var(--greywhite);
     text-align: center;
+    line-height: 1.5em;
 }
 
-/* description paragraph */
 
 /* companies */
+.sponsor__svg-mobile{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 327px;
+}
+
+.spotify {
+    height: 1.1012em;
+    width: 3.496em;
+}
+
+.apple-podcast {
+    height: 1.0625em;
+    width: 2.8125em;
+}
+
+.google-podcasts {
+    height: 0.9375em;
+    width: 6em;
+}
+
+.pocket-casts {
+    height: ;
+    width: ;
+}
+
 .sponsor__svg {
     display: none;
 }
