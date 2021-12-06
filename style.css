@@ -167,6 +167,7 @@ body {
     outline: none;
 }
 
+/* email status label */
 .email-label {
     display: none;
 }
@@ -184,8 +185,55 @@ body {
     height: 100%;
 }
 
-/* email status label */
-
 /* tablet 768 x 1024 */
+@media screen and (min-width: 768px) {
+
+    body {
+        padding: 0em;
+        display: block;
+        padding-left: 39px;
+    }
+
+    .coverImg {
+        max-height: 47.9375em;
+        background-position: top right;
+        opacity: 0.7;
+    }
+
+    /* header */
+    .header {
+        height: 214px;
+        width: 277px;
+        margin-bottom: 0em;
+        padding-top: 50px;
+        margin-bottom: 44px;
+
+    }
+
+    /* main */
+    .description  {
+        height: 509px;
+        width: 635px;
+        background: #000000;
+        padding-top: 93px;
+    }
+
+    .description__title h1 {
+        text-align: left;
+        font-size: 3em;
+        font-weight: 300;
+    }
+    
+    .description__paragraph {
+        max-width: 445px;
+        height: 86px;
+        text-align: left;
+        font-size: 1.125em;
+    }
+    .sponsor__svg-mobile {
+        visibility: hidden;
+    }
+}
+
 
 /* desktop 1440 x 900 */
