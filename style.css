@@ -172,7 +172,7 @@ body {
     display: none;
 }
 
-.access2 {
+.access-mobile {
     display: relative;
     height: 2.875em;
     width: 100%;
@@ -226,12 +226,38 @@ body {
     
     .description__paragraph {
         max-width: 445px;
-        height: 86px;
         text-align: left;
         font-size: 1.125em;
+        padding-bottom: 3em;
     }
     .sponsor__svg-mobile {
-        visibility: hidden;
+        display: none;
+    }
+
+    /* input form and button group */
+    .access-mobile {
+        display: none;
+    }
+
+    .container {
+        height: 56px;
+        width: 427px;
+    }
+
+    .container.flex {
+        flex-direction: row;
+    }
+
+    .form-group-mobile {
+    }
+
+    #email {
+        width: 14.25em;
+    }
+
+
+
+    .access-btn-tablet-desktop {
     }
 }
 
