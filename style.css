@@ -250,6 +250,13 @@ body {
 
 
     .form-group-mobile {
+        height: 56px;
+        width: 427px;
+        background: var(--darkgrey);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 5px;
     }
 
     #email {
@@ -259,14 +266,13 @@ body {
 
     
     .access-tablet-desktop {
-        max-height:46px;
-        max-width: 162px;
+        height: 46px;
+        width: 162px;
     }
 
     .access-tablet-desktop button {
         height: 100%;
         width: 100%;
-        display: block;
         border: none;
         border-radius: 28px;
         background: var(--green);
