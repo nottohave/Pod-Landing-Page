@@ -245,13 +245,13 @@ body {
     .container {
         height: 56px;
         width: 427px;
-        display: unset;
+        display: inline-block;
     }
 
 
     .form-group-mobile {
-        height: 56px;
-        width: 427px;
+        height: 100%;
+        width: 100%;
         background: var(--darkgrey);
         display: flex;
         justify-content: space-between;
@@ -260,7 +260,8 @@ body {
     }
 
     #email {
-        width: 14.25em;
+        max-width: 228px;
+        padding-right: 0em;
     }
 
 
