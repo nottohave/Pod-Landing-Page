@@ -137,6 +137,9 @@ body {
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     justify-content: space-between;
     height: 6.74em;
@@ -242,11 +245,9 @@ body {
     .container {
         height: 56px;
         width: 427px;
+        display: unset;
     }
 
-    .container.flex {
-        flex-direction: row;
-    }
 
     .form-group-mobile {
     }
@@ -256,9 +257,22 @@ body {
     }
 
 
-
-    .access-btn-tablet-desktop {
+    
+    .access-tablet-desktop {
+        max-height:46px;
+        max-width: 162px;
     }
+
+    .access-tablet-desktop button {
+        height: 100%;
+        width: 100%;
+        display: block;
+        border: none;
+        border-radius: 28px;
+        background: var(--green);
+        font-family: "Chivo Bold";
+        color: var(--dark);
+    
 }
 
 
