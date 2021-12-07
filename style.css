@@ -132,7 +132,7 @@ body {
 .container,
 .form-group-mobile,
 #email,
-.access {
+.access-mobile {
     width: 100%;
 }
 
@@ -151,8 +151,7 @@ body {
 
 .form-group-mobile,
 #email,
-.access2,
-.access {
+.access-btn-mobile {
     border: none;
     border-radius: 28px;
 }
@@ -168,6 +167,21 @@ body {
 
 #email:focus {
     outline: none;
+}
+
+.access-btn-mobile,
+.access-tablet-desktop {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 28px;
+    background: var(--green);
+    font-family: "Chivo Bold";
+    color: var(--dark);
+}
+
+.access-tablet-desktop {
+    display: none;
 }
 
 /* email status label */
@@ -258,12 +272,15 @@ body {
         padding-right: 5px;
     }
 
+    /* email input */
     #email {
         max-width: 228px;
         padding-right: 0em;
     }
    
+    /* access button */
     .access-tablet-desktop {
+        display: unset;
         height: 46px;
         width: 162px;
     }
