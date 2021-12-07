@@ -248,7 +248,6 @@ body {
         display: inline-block;
     }
 
-
     .form-group-mobile {
         height: 100%;
         width: 100%;
@@ -263,9 +262,7 @@ body {
         max-width: 228px;
         padding-right: 0em;
     }
-
-
-    
+   
     .access-tablet-desktop {
         height: 46px;
         width: 162px;
@@ -279,8 +276,38 @@ body {
         background: var(--green);
         font-family: "Chivo Bold";
         color: var(--dark);
-    
-}
+    }
 
+    .sponsor__svg {
+        max-height: 29px;
+        max-width: 536px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 64px;
+        opacity: 0.5;
+    }
+
+    .spotify {
+        height: 29px;
+        width: 96px;
+    }
+    
+    .apple-podcast {
+        height: 29px;
+        width: 78px;
+    }
+
+    .google-podcasts {
+        height: 18px;
+        width: 128px;
+    }
+
+    .pocket-casts {
+        height: 25px;
+        width: 130px;
+    }
+}
 
 /* desktop 1440 x 900 */
