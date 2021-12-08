@@ -54,7 +54,8 @@ body {
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat;
-    opacity: 0.13;
+    mix-blend-mode: normal;
+    opacity: 0.1;
 }
 
 /* header */
@@ -202,6 +203,10 @@ body {
     height: 100%;
 }
 
+.green-dots-background {
+    display: none;
+}
+
 /* tablet 768 x 1024 */
 @media screen and (min-width: 768px) {
 
@@ -212,6 +217,7 @@ body {
     }
 
     .coverImg {
+        background-image: url(./assets/tablet/image-host.jpg);
         max-height: 47.9375em;
         background-position: top right;
         opacity: 0.7;
@@ -332,3 +338,30 @@ body {
 }
 
 /* desktop 1440 x 900 */
+@media screen and (min-width: 1400px) {
+    /* background img */
+    .coverImg {
+        background-image: url(./assets/desktop/image-host.jpg);
+        background-size: 962px 680px;
+        left: calc(50% - 962px/2 -23px);
+        top: calc(50% - 640px/2);
+        mix-blend-mode: screen;
+    }
+    
+    /* logo POD */
+    .header {
+        position: absolute;
+        width: 134.85px;
+        height: 56px;
+        left: 165px;
+        top: 102px;
+    }
+
+    .description {
+        position: absolute;
+        width: 723px;
+        height: 509px;
+        left: 165px;
+        top: 261px;
+    }
+}
