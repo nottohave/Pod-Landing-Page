@@ -325,6 +325,10 @@ body {
         height: 25px;
         width: 130px;
     }
+
+    .green-dots-background {
+        margin-top: 153px;
+    }
 }
 
 /* desktop 1440 x 900 */
