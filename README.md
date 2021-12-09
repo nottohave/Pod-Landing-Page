@@ -8,5 +8,5 @@ html and css files are pushed.
 Update 12/5/21
 Mobile view is available under 375 x 777 screen size
 
-Issues being work on:
-Fixing height for the Access button
+Update 12/8/21
+I change my approach on mobile and tablet view. I use position absolute instead of relying on padding. 
