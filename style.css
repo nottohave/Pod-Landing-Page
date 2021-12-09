@@ -11,6 +11,11 @@
 }
 
 @font-face {
+    font-family: "Chivo Normal";
+    src: url(./fonts/Chivo-Regular.ttf);
+}
+
+@font-face {
     font-family: "Chivo Bold";
     src: url(./fonts/Chivo-Bold.ttf);
 }
@@ -25,15 +30,9 @@
     --greywhite: #C2CBE5;
 }
 
-.flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 /* Mobile view 375 x 777 */
 body {
-    position: relative;
+    /* position: relative; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -60,6 +59,9 @@ body {
 
 /* header */
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 3.8125em;
 }
 
@@ -76,6 +78,7 @@ body {
     height: auto;
     line-height: 1.5em;
     color: var(--white);
+    opacity: 0.8;
 }
 
 .title-highlight {
@@ -195,13 +198,11 @@ body {
     height: 2.875em;
     width: 100%;
 }
-.access {
-    display: block;
-    background: var(--green);
-    font-family: "Chivo Bold";
-    color: var(--dark);
-    height: 100%;
+
+.access-btn-mobile:hover {
+    box-shadow: inset 0px 25px 20px 20px rgba(158, 236, 206, 0.856);
 }
+
 
 .green-dots-background {
     display: none;
@@ -213,42 +214,58 @@ body {
     body {
         padding: 0em;
         display: block;
-        padding-left: 39px;
     }
 
     .coverImg {
         background-image: url(./assets/tablet/image-host.jpg);
-        max-height: 47.9375em;
-        background-position: top right;
+        width: 491px;
+        height: 767px;
+        left: 277px;
+        top: 0px;
         opacity: 0.7;
     }
 
     /* header */
     .header {
+        display: block;
+        position: absolute;
         height: 214px;
         width: 277px;
+        left: 0px;
+        top: 0px;
         margin-bottom: 0em;
-        padding-top: 50px;
-        margin-bottom: 44px;
+    }
 
+    .pod {
+        position: absolute;
+        left: 39px;
+        top: 50px;
     }
 
     /* main */
     .description  {
+        position: relative;
         height: 509px;
         width: 635px;
         background: #000000;
-        padding-top: 93px;
+        left: 39px;
+        top: 258px;
+        padding-top: 90px;
     }
 
     .description__title h1 {
+        height: 112px;
         text-align: left;
-        font-size: 3em;
+        font-size: 48px;
         font-weight: 300;
+        line-height: 56px; 
     }
     
     .description__paragraph {
         max-width: 445px;
+        height: 84px;
+        padding-top: 31px;
+        padding-bottom: 40px;
         text-align: left;
         font-size: 1.125em;
         padding-bottom: 3em;
@@ -263,9 +280,10 @@ body {
     }
 
     .container {
+        position: absolute;
         height: 56px;
         width: 427px;
-        display: inline-block;
+        top: 360px;
     }
 
     .form-group-mobile {
@@ -291,7 +309,7 @@ body {
         width: 162px;
     }
 
-    .access-tablet-desktop button {
+    .access-btn-tablet-desktop {
         height: 100%;
         width: 100%;
         border: none;
@@ -301,14 +319,20 @@ body {
         color: var(--dark);
     }
 
+    .access-btn-tablet-desktop:hover {
+        box-shadow: inset 0px 25px 20px 20px rgba(158, 236, 206, 0.856);
+    }
+    
+
     .sponsor__svg {
-        max-height: 29px;
-        max-width: 536px;
+        height: 29px;
+        width: 536px;
+        position: absolute;
+        top: 480px;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
-        margin-top: 64px;
         opacity: 0.5;
     }
 
@@ -333,7 +357,14 @@ body {
     }
 
     .green-dots-background {
-        margin-top: 153px;
+        display: block;
+        position: absolute;
+        width: 232px;
+        height: 104px;
+        background-image: url(./assets/desktop/bg-pattern-dots.svg);
+        background-repeat: no-repeat;
+        left: 30px;
+        top: 920px;
     }
 }
 
