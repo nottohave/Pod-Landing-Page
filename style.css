@@ -333,8 +333,9 @@ body {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        opacity: 0.5;
+        opacity: 0.6;
     }
+
 
     .spotify {
         height: 29px;
@@ -347,8 +348,9 @@ body {
     }
 
     .google-podcasts {
-        height: 18px;
-        width: 128px;
+        height: 29px;
+        width: 125px;
+        padding: 5px;
     }
 
     .pocket-casts {
@@ -417,6 +419,11 @@ body {
 
     .description__title h1 {
         font-size: 52px;
+    }
+
+    .google-podcasts {
+        height: 29px;
+        width: 129px;
     }
 
     .green-dots-background {
