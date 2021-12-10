@@ -11,3 +11,6 @@ Mobile view is available under 375 x 777 screen size
 Update 12/8/21
 I change my approach on mobile and tablet view. I use position absolute instead of relying on padding. 
 Tablet view availabel at 768 x 1024 resolution
+
+Update 12/9/21
+Desktop view is available on responsive screen 1400 x 900 and larger
