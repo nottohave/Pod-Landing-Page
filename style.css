@@ -371,6 +371,10 @@ body {
 /* desktop 1440 x 900 */
 @media screen and (min-width: 1400px) {
 
+    body {
+        position: relative;
+    }
+
     .container-box {
         height: 640px;
         width: 1275px;
@@ -391,18 +395,27 @@ body {
     
     /* logo POD */
     .header {
-        position: absolute;
-        width: 134.85px;
+        position: relative;
+        width: 387px;
         height: 56px;
-        left: 165px;
-        top: 102px;
+        top: -30px;
+    }
+
+    .pod {
+        left: 0px;
+        top: 0px;
     }
 
     .description {
         position: absolute;
         width: 723px;
         height: 509px;
-        left: 165px;
-        top: 261px;
+        padding-top: 88px;
+        left: 0px;
+        top: 135px;
+    }
+
+    .description__title h1 {
+        font-size: 52px;
     }
 }
