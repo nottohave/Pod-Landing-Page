@@ -418,4 +418,9 @@ body {
     .description__title h1 {
         font-size: 52px;
     }
+
+    .green-dots-background {
+        left: 1043px;
+        top: 588px;
+    }
 }
