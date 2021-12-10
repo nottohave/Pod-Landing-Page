@@ -370,12 +370,22 @@ body {
 
 /* desktop 1440 x 900 */
 @media screen and (min-width: 1400px) {
+
+    .container-box {
+        height: 640px;
+        width: 1275px;
+        position: relative;
+        left: 165px;
+        top: 130px;
+    }
+
     /* background img */
     .coverImg {
         background-image: url(./assets/desktop/image-host.jpg);
         background-size: 962px 680px;
-        left: calc(50% - 962px/2 -23px);
-        top: calc(50% - 640px/2);
+        left: 387px;
+        width: 888px;
+        height: 640px;
         mix-blend-mode: screen;
     }
     
