@@ -33,26 +33,30 @@
         <img class="pocket-casts" src="./assets/desktop/pocket-casts.svg" alt="pocket-casts">
       </div>
   
-      <div class="container">
+      <div class="container" id="form">
         <div class="form-group-mobile">
-          <input type="email" id="email" name="email" autocomplete="off" placeholder="Email address" required>
+          <input type="email" id="email"
+          pattern=".+@globex\.com" size="30" required
+          placeholder="Email address" autocomplete="off">
           <div class="access-tablet-desktop">
-            <button class="access-btn-tablet-desktop">
+            <button class="access-btn-tablet-desktop" type="submit">
               Request Access  
             </button>
           </div>
         </div>
         
         <div class="access-mobile">
-          <button class="access-btn-mobile">
+          <button class="access-btn-mobile" type="submit">
             Request Access  
           </button>
         </div>
   
-        <div class="email-label">
-          Oops! Please check your email
-        </div>  
       </div>
+
+      <div class="email-label display">
+        Oops! Please check your email
+      </div>  
+
       
       <div class="sponsor__svg">
         <img class="spotify" src="./assets/desktop/spotify.svg" alt="spotify">
@@ -66,5 +70,6 @@
 
   
   </div>
+  <script src="./script.js"></script>
 </body>
 </html>
