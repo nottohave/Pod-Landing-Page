@@ -190,7 +190,16 @@ body {
 
 /* email status label */
 .email-label {
-    display: none;
+    /* display: none; */
+}
+
+.email-label.display {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Chivo Bold";
+    color: #FB3E3E;
+    line-height: 14.28px;
 }
 
 .access-mobile {
