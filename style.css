@@ -190,7 +190,7 @@ body {
 
 /* email status label */
 .email-label {
-    /* display: none; */
+    display: none;
 }
 
 .email-label.display {
