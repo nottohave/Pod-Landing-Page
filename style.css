@@ -194,6 +194,7 @@ body {
 }
 
 .email-label.display {
+    display: block;
     padding-top: 5px;
     text-align: center;
     font-size: 14px;
@@ -309,6 +310,10 @@ body {
     #email {
         max-width: 228px;
         padding-right: 0em;
+    }
+
+    .email-label {
+        position: relative;
     }
    
     /* access button */
