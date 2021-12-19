@@ -313,7 +313,9 @@ body {
     }
 
     .email-label {
-        position: relative;
+        position: absolute;
+        top: 420px;
+        left: 25px;
     }
    
     /* access button */
