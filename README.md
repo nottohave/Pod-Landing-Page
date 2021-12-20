@@ -34,9 +34,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- [Solution link](https://www.frontendmentor.io/solutions/pod-request-access-PullREOcZ)
 
-[Live Site](https://nottohave.github.io/Pod-Landing-Page/)
+- [Live Site](https://nottohave.github.io/Pod-Landing-Page/)
 
 ### Built with
 
